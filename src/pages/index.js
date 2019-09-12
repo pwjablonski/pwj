@@ -1,21 +1,38 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import style from "./index.module.css"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faCodepen } from '@fortawesome/free-brands-svg-icons'
+
+const IndexPage = ({location}) => {
+  return (
+    <Layout pathname={location.pathname}>
+      <SEO title="Home" />
+      <div className={style.content}>
+          <h1>hi! i'm peter, welcome to my site</h1>
+          <p>i am a programmer, educator and amateur crossword solver</p>
+          <div className={style.icons}>
+            <a href="mailto:pwjablonski@gmail.com">
+              <FontAwesomeIcon className={style.icon} icon={faPaperPlane} />
+            </a>
+            <a href="https://www.linkedin.com/in/pwjablonski/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className={style.icon} icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/pwjablonski" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className={style.icon} icon={faGithub} />
+            </a>
+            <a href="https://codepen.io/pjablonski/pens/public" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className={style.icon} icon={faCodepen} />
+            </a>
+          </div>
+      </div>
+  
+    </Layout>
+  )
+}
 
 export default IndexPage

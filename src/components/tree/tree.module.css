@@ -1,0 +1,134 @@
+.tree {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.tree:hover{
+    opacity: 1;
+}
+
+.apple {
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    background-color: rgb(175, 0, 0);
+    border-radius: 36% 36% 41% 41% / 42% 42% 75% 75%;
+    animation: wiggle 5s infinite;
+}
+
+.appleone {
+    composes: apple;
+    bottom: 55px;
+    right: 70px;
+}
+  
+.appletwo {
+    composes: apple;
+    bottom: 40px;
+    right: 65px;
+}
+
+.applethree {
+    composes: apple;
+    bottom: 39px;
+    right: 45px;
+}
+
+.applefour {
+    composes: apple;
+    bottom: 50px;
+    right: 58px;
+}
+
+.applefive {
+    composes: apple;
+    bottom: 55px;
+    right: 48px;
+}
+
+@keyframes wiggle {
+0%{
+    transform: rotate(15deg);
+}
+50%{
+    transform: rotate(-15deg);
+}
+100%{
+    transform: rotate(15deg);
+}
+}
+
+.apple:before{
+    background: rgb(100, 167, 100);
+    content: "";
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    margin: -1px 0 0 2px;
+    border-radius: 100px 0;
+    z-index: 5;
+}
+
+.apple:after{
+    background: rgb(19, 97, 19);
+    content: "";
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    border-radius: 50%;
+    margin: 4.8px 0 0 1.5px;
+}
+
+.tree-green {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(19, 97, 19);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.tree-green-mid{
+    composes: tree-green;
+    bottom: 35px;
+    right: 50px;
+}
+
+.tree-green-tl{
+    composes: tree-green;
+    bottom: 35px;
+    right: 40px;
+}
+
+.tree-green-tr{
+    composes: tree-green;
+    bottom: 35px;
+    right: 60px;
+}
+
+.tree-green-br{
+    composes: tree-green;
+    bottom: 45px;
+    right: 60px;
+}
+
+.tree-green-bl{
+    composes: tree-green;
+    bottom: 45px;
+    right: 40px;
+}
+
+.tree-green-top{
+    composes: tree-green;
+    bottom: 50px;
+    right: 50px;
+}
+
+.tree-trunk{
+
+    position: absolute;
+    border-bottom: 25px solid rgb(128, 32, 32);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    bottom: 25px;
+    right: 55px;
+}
