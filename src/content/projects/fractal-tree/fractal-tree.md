@@ -3,12 +3,8 @@ path: "/projects/fractal-tree"
 date: "2019-07-01"
 title: "fractal-tree"
 image: "./fractal-tree.png"
-codelink: "test"
-livelink: "test"
+codelink: "https://github.com/pwjablonski/Fractal-Tree"
+livelink: "https://pwjablonski.github.io/Fractal-Tree"
 ---
 
-This is my first post on my new fake blog! How exciting!
-
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on salted duck eggs.
+Check back soon for more updates!

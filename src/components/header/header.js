@@ -4,7 +4,6 @@ import React from "react"
 import styles from "./header.module.css"
 
 const Header = ({ siteTitle, pathname }) => {
-  console.log(pathname)
   return (
     <header className={styles.header}>
       <div className={styles.nav}>

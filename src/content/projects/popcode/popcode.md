@@ -3,12 +3,13 @@ path: "/projects/popcode"
 date: "2019-07-01"
 title: "popcode"
 image: "./popcode.jpeg"
-codelink: "test"
-livelink: "test"
+codelink: "https://github.com/popcodeorg/popcode"
+livelink: "https://popcode.org/"
 ---
 
-This is my first post on my new fake blog! How exciting!
+[Popcode](https://popcode.org) is a simple HTML/CSS/JavaScript editing
+environment for use in the classroom created by Mat Brown. It's a lot like [JSBin](http://jsbin.com),
+[JSFiddle](https://jsfiddle.net), or [CodePen](https://codepen.io), but it focuses on
+giving specific, immediate, human-friendly feedback when the code contains errors.
 
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on salted duck eggs.
+I've learned a lot about React and Firebase through contibuting to this project!

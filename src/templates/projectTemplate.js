@@ -11,14 +11,14 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout pathname={location.pathname}>
-      <div className={style.content}>
+      <div className={style.container}>
           <h1>{frontmatter.title}</h1> 
           <p className={style.links}>
             <a className={style.link} href={frontmatter.livelink}>live site</a>
             <span> | </span>
             <a className={style.link} href={frontmatter.codelink}>source</a>
           </p>
-          <div>
+          <div className={style.content}>
             <p>{frontmatter.date}</p>
             <div
               // className={style.text}
