@@ -14,9 +14,9 @@ export default function Template({
       <div className={style.container}>
           <h1>{frontmatter.title}</h1> 
           <p className={style.links}>
-            <a className={style.link} href={frontmatter.livelink}>live site</a>
+            <a className={style.link} href={frontmatter.livelink} target="_blank" rel="noopener noreferrer">live site</a>
             <span> | </span>
-            <a className={style.link} href={frontmatter.codelink}>source</a>
+            <a className={style.link} href={frontmatter.codelink} target="_blank" rel="noopener noreferrer">source</a>
           </p>
           <div className={style.content}>
             <p>{frontmatter.date}</p>
