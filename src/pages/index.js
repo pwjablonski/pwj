@@ -9,6 +9,7 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faCodepen } from '@fortawesome/free-brands-svg-icons'
 
 const IndexPage = ({location}) => {
+  console.log(location);
   return (
     <Layout pathname={location.pathname}>
       <SEO title="Home" />

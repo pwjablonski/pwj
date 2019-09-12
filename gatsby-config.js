@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/word-up-logo.jpg`, // This path is relative to the root of the site.
+        icon: `src/assets/images/pj.png`, // This path is relative to the root of the site.
       },
     },
     {
