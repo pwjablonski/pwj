@@ -7,4 +7,4 @@ codelink: "https://github.com/pwjablonski/word-up"
 livelink: "https://word-up-prod.web.app"
 ---
 
-Check back soon for more updates!
+Word Up is a playground for crossword puzzle creators! Word Up is an approachable enivronment for crossword constructors of all levels.

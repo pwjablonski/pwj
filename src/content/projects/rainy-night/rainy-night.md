@@ -7,4 +7,4 @@ codelink: "https://codepen.io/pjablonski/pen/JjPZRJQ"
 livelink: "https://codepen.io/pjablonski/full/JjPZRJQ"
 ---
 
-Check back soon for more updates!
+A rainy scene created with HTML and CSS!

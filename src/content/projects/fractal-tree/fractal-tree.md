@@ -7,4 +7,4 @@ codelink: "https://github.com/pwjablonski/Fractal-Tree"
 livelink: "https://pwjablonski.github.io/Fractal-Tree"
 ---
 
-Check back soon for more updates!
+Fun recursion with HTML canvas!

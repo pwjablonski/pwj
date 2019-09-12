@@ -7,4 +7,6 @@ codelink: "https://pwjablonski.github.io/Ratios"
 livelink: "https://github.com/pwjablonski/Ratios"
 ---
 
-Check back soon for more updates!
+This project was inspired by this video from Numberphile about why the Golden Ratio is so irrational.
+
+Play around with the slider or try typing in some of these well known numbers as decimals
