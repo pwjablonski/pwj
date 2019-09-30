@@ -3,8 +3,8 @@ path: "/projects/ratios"
 date: "2019-07-01"
 title: "ratios"
 image: "./ratios.png"
-codelink: "https://pwjablonski.github.io/Ratios"
-livelink: "https://github.com/pwjablonski/Ratios"
+codelink: "https://github.com/pwjablonski/Ratios"
+livelink: "https://pwjablonski.github.io/Ratios"
 ---
 
 This project was inspired by this video from Numberphile about why the Golden Ratio is so irrational.
