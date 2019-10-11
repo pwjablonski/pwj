@@ -1,0 +1,52 @@
+.content {
+    padding: 6em 12em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: fadein 5s 1; 
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 1em 0;
+}
+
+h3 {
+    margin: 0 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    font-weight: bold;
+}
+.section {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin: 0.5em 0;
+}
+
+.section__subheader {
+    font-style: italic;
+}
+
+.skill {
+    font-weight: bold;
+}

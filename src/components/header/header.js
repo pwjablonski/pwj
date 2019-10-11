@@ -13,6 +13,9 @@ const Header = ({ siteTitle, pathname }) => {
         <Link className={
           pathname === '/projects/' || pathname.startsWith('/projects/') ? styles.linkActive : styles.link
         } to="/projects/">projects</Link>
+        <Link className={
+          pathname === '/resume' ? styles.linkActive : styles.link
+        } to="/resume">resume</Link>
       </div>
     </header>
   )
