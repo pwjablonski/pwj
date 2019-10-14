@@ -30,7 +30,7 @@ const Projects = ({data, location}) => {
          </section>
          <section className={style.section}>
             <h2>Recent Highlights</h2>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Recurse Center</h3>
                 <div className="section__dates">July 2019 - September 2019</div>
@@ -56,7 +56,7 @@ const Projects = ({data, location}) => {
                 </li>
               </ul>
             </div>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Popcode</h3>
                 <div className="section__dates">January 2017 - Present</div>
@@ -76,7 +76,7 @@ const Projects = ({data, location}) => {
          </section>
          <section className={style.section}>
             <h2>Work Experience</h2>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Code Nation (formerly ScriptEd)</h3>
                 <div className="section__dates">January 2017 - June 2019</div>
@@ -85,7 +85,7 @@ const Projects = ({data, location}) => {
                 Senior Program Manager,  Curriculum Specialist
               </h4>
             </div>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Code / Interactive</h3>
                 <div className="section__dates">October 2015 - January 2017</div>
@@ -94,7 +94,7 @@ const Projects = ({data, location}) => {
                 Program Manager
               </h4>
             </div>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Flatiron School</h3>
                 <div className="section__dates">May 2015 - August 2015</div>
@@ -103,7 +103,7 @@ const Projects = ({data, location}) => {
                 Pre-College Fellow
               </h4>
             </div>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>St. Louis Public Schools, Dewey ISS</h3>
                 <div className="section__dates">May 2013 - May 2015</div>
@@ -115,7 +115,7 @@ const Projects = ({data, location}) => {
          </section>
          <section className={style.section}>
             <h2>Education</h2>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Washington University in St. Louis</h3>
                 <div className="section__dates">August 2009 - May 2013</div>
@@ -124,7 +124,7 @@ const Projects = ({data, location}) => {
                 Bachelor of Arts, Majors in Chinese and International Business
               </h4>
             </div>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Fudan University</h3>
                 <div className="section__dates">May 2011 - December 2011</div>
@@ -133,7 +133,7 @@ const Projects = ({data, location}) => {
          </section>
          <section className={style.section_last}>
             <h2>References</h2>
-            <div className="section__item">
+            <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Mat Brown</h3>
                 <div className="section__dates">mat.a.brown@gmail.com</div>

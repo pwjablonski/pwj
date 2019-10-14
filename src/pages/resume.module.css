@@ -1,10 +1,18 @@
 .content {
+    font-size: 10px;
     width: 38rem;
     margin: 4rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     animation: fadein 5s 1; 
+    line-height: 1.5;
+}
+
+@media(max-width: 500px){
+    .content{
+        width: 320px;
+    }
 }
 
 @keyframes fadein{
@@ -22,15 +30,16 @@
 
 .section h2 {
     text-decoration: underline;
+    margin-bottom: 0.25rem;
 }
 
 .section h4 {
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     font-weight: normal;
 }
 
 .section p {
-    margin-bottom:0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .link {
@@ -41,8 +50,12 @@
 .section {
     border-bottom: 2px solid black;
     padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     width: 100%;
+}
+
+.section__item{
+    margin-bottom:0.5rem;
 }
 
 .section_last{
@@ -55,7 +68,6 @@
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
-    margin: 0.5rem 0;
 }
 
 .section__subheader {
