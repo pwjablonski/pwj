@@ -1,5 +1,5 @@
 .content {
-    font-size: 10px;
+    font-size: 16px;
     width: 38rem;
     margin: 4rem auto;
     display: flex;
@@ -9,9 +9,17 @@
     line-height: 1.5;
 }
 
-@media(max-width: 500px){
+@media(max-width: 720px){
     .content{
-        width: 320px;
+        font-size: 9.5px;
+        width: 550px;
+    }
+}
+
+@media(max-width: 550px){
+    .content{
+        font-size: 9.5px;
+        width: 350px;
     }
 }
 
