@@ -26,10 +26,11 @@
 .info{
     width: 50%;
     height: 100%;
-    padding: 1em;
+    padding: 0 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .title {
