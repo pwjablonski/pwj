@@ -50,3 +50,12 @@ a {
 .skill {
     font-weight: bold;
 }
+
+.section__endorsement{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    text-align: justify; 
+}

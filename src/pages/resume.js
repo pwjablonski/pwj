@@ -13,13 +13,12 @@ const Projects = ({data, location}) => {
            <h1>Peter Jablonski</h1>
            <p>
               I am a computer science educator with 4 years
-              of experience teaching web development fundamentals
-              seeking a software engineering role. I am a major
-              contributor to a complex, modern, open source,
-              production level code base. I’m most effective
-              breaking down complex technical problems, working
-              collaboratively and developing approachable and
-              accessible experiences for users.
+              of experience teaching web development fundamentals,
+              seeking a software engineering role. Outside of work,
+              I am a major contributor to a complex, modern, production
+              level, open source code base. I’m most effective breaking
+              down complex technical problems, working collaboratively
+              and developing approachable and accessible experiences for users.
             </p>
             <p> 
               Lately I’ve been working with 
@@ -49,6 +48,12 @@ const Projects = ({data, location}) => {
                 <li>
                   Presented at Recurse’s monthly <a href="https://www.recurse.com/events/localhost-lightning-talks-august-2019">Localhost talk</a> to a technical audience of over 60 engineers
                 </li>
+                <li>
+                  Created implementation of <a href="https://ulitmate-tic-tac-toe.pwjablonski.now.sh/">Ultimate TicTacToe</a> (<a href="https://github.com/pwjablonski/ultimate-tic-tac-toe">repo</a>) using Svelte framework
+                </li>
+                <li>
+                  Explored <a href="https://pwjablonski.com/projects/lines">p5.js</a>, <a href="https://pwjablonski.com/projects/ratios">HTML Canvas</a> and <a href="https://pwjablonski.com/projects/recurse-logo">CSS animations</a> to create generative art
+                </li>
               </ul>
             </div>
             <div class="section__item">
@@ -61,10 +66,11 @@ const Projects = ({data, location}) => {
               </h4>
               <ul class="section__details">
                 <li>#3 contributor to <a href="https://popcode.org/">Popcode</a> (<a href="https://github.com/pwjablonski/popcode">repo</a>), an open source programming environment designed to support new learners and classroom workflows used by over 1000 students daily</li>
-                <li>Implemented Google authentication greatly reducing student sign up time (<a href="https://github.com/popcodeorg/popcode/pull/1450">#1450</a>)</li>
-                <li>Integrated with Google Classroom streamlining the processes for assignment submission (<a href="https://github.com/popcodeorg/popcode/pull/1511">#1511</a>)</li>
-                <li>BuiltEnabled archive projects feature (<a href="https://github.com/popcodeorg/popcode/pull/1485">#1485</a>) and redesigned the project selection interface (<a href="https://github.com/popcodeorg/popcode/pull/1737">#1737</a>) simplifying the navigation and selection of projects</li>
-                <li>Created initial version of DOM element highlighter visually connecting cursor position to highlighted elements (<a href="https://github.com/popcodeorg/popcode/pull/1025">#1025</a>)</li>
+                <li>Implemented Google authentication, greatly reducing student sign up time (<a href="https://github.com/popcodeorg/popcode/pull/1450">#1450</a>)</li>
+                <li>Integrated with Google Classroom, streamlining the processes for assignment submission (<a href="https://github.com/popcodeorg/popcode/pull/1511">#1511</a>)</li>
+                <li>BuiltEnabled archive projects feature (<a href="https://github.com/popcodeorg/popcode/pull/1485">#1485</a>) and redesigned the project selection interface (<a href="https://github.com/popcodeorg/popcode/pull/1737">#1737</a>), simplifying the navigation and selection of projects</li>
+                <li>Created working proof-of-concept of DOM element highlighter, visually connecting cursor position to highlighted elements (<a href="https://github.com/popcodeorg/popcode/pull/1025">#1025</a>)</li>
+                <p class={style.section__endorsement}>As one of Popcode’s most consistent and productive contributors for the past two and a half years, Peter has demonstrated an ability to independently tackle technically challenging work that I would only expect from someone with several years of professional experience. His ability to write high-quality code that solves complex problems, working within a large and mature codebase, will make him a valued member of the software team that is lucky enough to hire him. I can’t recommend working with Peter highly enough! —Mat Brown</p>
               </ul>
             </div>
          </section>
@@ -123,6 +129,18 @@ const Projects = ({data, location}) => {
                 <h3>Fudan University</h3>
                 <div class="section__dates">May 2011 - December 2011</div>
               </div>
+            </div>
+         </section>
+         <section class={style.section}>
+            <h2>References</h2>
+            <div class="section__item">
+              <div class={style.section__header}>
+                <h3>Mat Brown</h3>
+                <div class="section__dates">mat.a.brown@gmail.com</div>
+              </div>
+              <h4 class={style.section__subheader}>
+                Senior Software Engineer at Dropbox / maintainer of Popcode
+              </h4>
             </div>
          </section>
       </div>
