@@ -9,10 +9,10 @@
     line-height: 1.5;
 }
 
-@media(max-width: 720px){
+@media(max-width: 670px){
     .content{
-        font-size: 9.5px;
-        width: 550px;
+        font-size: 10.75px;
+        width: 670px;
     }
 }
 
@@ -30,6 +30,10 @@
     100% {
         opacity: 1;
     }
+}
+
+.content h1 {
+    margin: 0 .5rem;
 }
 
 .section h1,h2,h3,h4,h5,h6,p,ul,li {
