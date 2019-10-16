@@ -1,3 +1,8 @@
+@media print{
+    .header{
+        visibility: hidden;
+    }
+}
 
 .header {
     position: absolute;

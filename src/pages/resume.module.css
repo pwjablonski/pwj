@@ -9,17 +9,17 @@
     line-height: 1.5;
 }
 
-@media(max-width: 570px){
-    .content{
-        font-size: 10.5px;
-        width: 670px;
-    }
-}
-
-@media(max-width: 555px){
+@media(max-width: 600px){
     .content{
         font-size: 12px;
         width: 350px;
+    }
+}
+
+@media print{
+    .content{
+        font-size: 10.5px;
+        width: 670px;
     }
 }
 
