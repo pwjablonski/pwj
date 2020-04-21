@@ -5,6 +5,9 @@ import Img from "gatsby-image"
 import { Link } from "gatsby"
 
 const Project = ({ siteTitle, data }) => {
+  if (!data.isVisible){
+    return null
+  }
     return (
       <Link to={data.path}>
         <div className={style.project}>

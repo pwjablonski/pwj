@@ -29,7 +29,35 @@ const Projects = ({data, location}) => {
             </p>
          </section>
          <section className={style.section}>
+            <h2>Technical Skills</h2>
+            <p><span className={style.skill}>Strong</span>​: ​JavaScript (ES5/ES6), React, Redux, Gatsby.js, HTML, CSS, Git, Firebase, Flux Architecture, JAMstack, jQuery</p>
+            <p><span className={style.skill}>Experienced</span>: ​ Webpack, RESTful APIs, Node/Express, MongoDB/Mongoose, Travis CI, Testing (Jest), GraphQL, Svelte</p>
             <h2>Recent Highlights</h2>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>UPPERLINE CODE</h3>
+                <div className="section__dates">November 2019 - March 2020</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                ​Software Engineer (Contract)
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Built and deployed JAMstack application (Gatsby.js, Airtable, Firebase, Cloud Functions) to create teacher training platform
+                </li>
+                <li>
+                  Utilized GraphQL page queries to dynamically generate create page content from Airtable and Github                </li>
+                <li>
+                  Configured Redux for state management, with immer as immutable data store and redux-thunk for async data processing in
+order to standardize data flow and management                
+                </li>
+                <li>
+                  Implemented private client side routing using React reach router to protect privileged content                </li>
+                <li>
+                  Deployed Firebase cloud functions to consume firebase events and trigger data forwarding via Airtable API
+                </li>
+              </ul>
+            </div>
             <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>Recurse Center</h3>

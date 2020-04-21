@@ -5,6 +5,7 @@ title: "popcode"
 image: "./popcode.jpeg"
 codelink: "https://github.com/popcodeorg/popcode"
 livelink: "https://popcode.org/"
+isVisible: true
 ---
 
 [Popcode](https://popcode.org) is a simple HTML/CSS/JavaScript editing

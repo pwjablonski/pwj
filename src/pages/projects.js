@@ -36,6 +36,7 @@ export const pageQuery = graphql`
             path
             date
             title
+            isVisible
             image {
               childImageSharp {
                 fluid(maxWidth: 150) {
