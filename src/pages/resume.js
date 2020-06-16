@@ -30,9 +30,26 @@ const Projects = ({data, location}) => {
          </section>
          <section className={style.section}>
             <h2>Technical Skills</h2>
-            <p><span className={style.skill}>Strong</span>​: ​JavaScript (ES5/ES6), React, Redux, Gatsby.js, HTML, CSS, Git, Firebase, Flux Architecture, JAMstack, jQuery</p>
-            <p><span className={style.skill}>Experienced</span>: ​ Webpack, RESTful APIs, Node/Express, MongoDB/Mongoose, Travis CI, Testing (Jest), GraphQL, Svelte</p>
+            <p><span className={style.skill}>Strong</span>​: JavaScript (ES5/ES6), React, Redux, Gatsby.js, HTML, CSS, Git, Firebase, Flux Architecture, JAMstack, jQuery</p>
+            <p><span className={style.skill}>Experienced</span>: ​ Webpack, RESTful APIs, D3.js, Node/Express, Postgres/Sequelize,  Travis CI, Testing (Jest),  GraphQL</p>
             <h2>Recent Highlights</h2>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>ASIA SOCIETY</h3>
+                <div className="section__dates">March 2019 - Present</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                ​Software Engineer (Contract)
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Building and deploying a full stack JavaScript application for an interactive digital art exhibition
+                </li>
+                <li>
+                  Integrating D3.js and Leaflet libraries to create interactive and scalable location based images
+                </li>
+              </ul>
+            </div>
             <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>UPPERLINE CODE</h3>
@@ -98,7 +115,6 @@ order to standardize data flow and management
                 <li>Integrated with Google Classroom, streamlining the processes for assignment submission (<a className={style.link} href="https://github.com/popcodeorg/popcode/pull/1511">#1511</a>)</li>
                 <li>BuiltEnabled archive projects feature (<a className={style.link} href="https://github.com/popcodeorg/popcode/pull/1485">#1485</a>) and redesigned the project selection interface (<a className={style.link} href="https://github.com/popcodeorg/popcode/pull/1737">#1737</a>), simplifying the navigation and selection of projects</li>
                 <li>Created working proof-of-concept of DOM element highlighter, visually connecting cursor position to highlighted elements (<a className={style.link} href="https://github.com/popcodeorg/popcode/pull/1025">#1025</a>)</li>
-                <p className={style.section__endorsement}>As one of Popcode’s most consistent and productive contributors for the past two and a half years, Peter has demonstrated an ability to independently tackle technically challenging work that I would only expect from someone with several years of professional experience. His ability to write high-quality code that solves complex problems, working within a large and mature codebase, will make him a valued member of the software team that is lucky enough to hire him. I can’t recommend working with Peter highly enough! —Mat Brown</p>
               </ul>
             </div>
          </section>
@@ -152,12 +168,6 @@ order to standardize data flow and management
                 Bachelor of Arts, Majors in Chinese and International Business
               </h4>
             </div>
-            <div className={style.section__item}>
-              <div className={style.section__header}>
-                <h3>Fudan University</h3>
-                <div className="section__dates">May 2011 - December 2011</div>
-              </div>
-            </div>
          </section>
          <section className={style.section_last}>
             <h2>References</h2>
@@ -169,6 +179,7 @@ order to standardize data flow and management
               <h4 className={style.section__subheader}>
                 Senior Software Engineer at Dropbox / maintainer of Popcode
               </h4>
+              <p className={style.section__endorsement}>As one of Popcode’s most consistent and productive contributors for the past two and a half years, Peter has demonstrated an ability to independently tackle technically challenging work that I would only expect from someone with several years of professional experience. His ability to write high-quality code that solves complex problems, working within a large and mature codebase, will make him a valued member of the software team that is lucky enough to hire him. I can’t recommend working with Peter highly enough! —Mat Brown</p>
             </div>
          </section>
       </div>
