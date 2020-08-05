@@ -48,3 +48,9 @@
         margin-bottom: 0;
     }
 }
+
+.bubble {
+    stroke: transparent;
+    width: 1rem;
+    position: absolute;
+}

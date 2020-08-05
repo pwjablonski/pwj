@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import style from "./projects.module.css"
 import Project from '../components/project/project'
+import { graphql } from 'gatsby'
 
 
 const Projects = ({data, location}) => {
