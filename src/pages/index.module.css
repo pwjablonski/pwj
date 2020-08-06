@@ -53,4 +53,5 @@
     stroke: transparent;
     width: 1rem;
     position: absolute;
+    z-index: -1;
 }
