@@ -37,7 +37,7 @@ const Layout = ({ children, pathname }) => {
       {/* <Header pathname={pathname} siteTitle={data.site.siteMetadata.title} /> */}
       <main onMouseDown={addBubble} role="presentation">{children}</main>
       <Footer />
-      {
+      {/* {
         bubbles.map((bubble, i) =>{
           return (
             <svg 
@@ -54,7 +54,7 @@ const Layout = ({ children, pathname }) => {
             </svg>
           )
         })
-      }
+      } */}
     </>
   )
 }
