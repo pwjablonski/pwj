@@ -45,11 +45,27 @@ const IndexPage = ({location, data}) => {
         </div>
       </section>
       <section className={style.page} id="projects">
-        <h1 className={style.page_title}>projects</h1>
+        <h1 className={style.page_title}>Freelance</h1>
         <div className={style.projects}>
         {
           projects.map((project) => {
-            return <Project data={project.node.frontmatter} key={project.node.frontmatter.title} />;
+            return project.node.frontmatter.category === "Freelance" && <Project data={project.node.frontmatter} key={project.node.frontmatter.title} />;
+          })
+        }
+        </div>
+        <h1 className={style.page_title}>Open Source</h1>
+        <div className={style.projects}>
+        {
+          projects.map((project) => {
+            return project.node.frontmatter.category === "Open Source" && <Project data={project.node.frontmatter} key={project.node.frontmatter.title} />;
+          })
+        }
+        </div>
+        <h1 className={style.page_title}>Personal Projects</h1>
+        <div className={style.projects}>
+        {
+          projects.map((project) => {
+            return project.node.frontmatter.category === "Personal" && <Project data={project.node.frontmatter} key={project.node.frontmatter.title} />;
           })
         }
         </div>
@@ -74,6 +90,7 @@ export const pageQuery = graphql`
             date
             title
             isVisible
+            category
             image {
               childImageSharp {
                 fluid(maxWidth: 150) {

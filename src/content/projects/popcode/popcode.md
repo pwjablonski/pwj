@@ -6,6 +6,7 @@ image: "./popcode.jpeg"
 codelink: "https://github.com/popcodeorg/popcode"
 livelink: "https://popcode.org/"
 isVisible: true
+category: "Open Source"
 ---
 
 [Popcode](https://popcode.org) is a simple HTML/CSS/JavaScript editing

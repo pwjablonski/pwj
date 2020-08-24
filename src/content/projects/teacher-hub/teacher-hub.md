@@ -6,6 +6,7 @@ image: "./teacher-hub.png"
 codelink: ""
 livelink: "https://teacherhub.upperlinecode.com/"
 isVisible: true
+category: "Freelance"
 ---
 
 Everyone's journey to code starts with the upper line. It's not easy, but surrounding yourself with a community of learners will give you the energy to fight on.

@@ -6,6 +6,7 @@ image: "./recurse-logo.png"
 codelink: "https://codepen.io/pjablonski/pen/OJLzYZV"
 livelink: "https://codepen.io/pjablonski/full/OJLzYZV"
 isVisible: true
+category: "Personal"
 ---
 
 The Recurse Center logo animated with CSS animations!

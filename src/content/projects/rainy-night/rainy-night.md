@@ -6,6 +6,7 @@ image: "./rainy-night.png"
 codelink: "https://codepen.io/pjablonski/pen/JjPZRJQ"
 livelink: "https://codepen.io/pjablonski/full/JjPZRJQ"
 isVisible: true
+category: "Personal"
 ---
 
 A rainy scene created with HTML and CSS!

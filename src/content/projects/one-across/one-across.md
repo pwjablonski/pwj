@@ -6,6 +6,7 @@ image: "./one-across.png"
 codelink: "https://github.com/pwjablonski/one-across"
 livelink: "https://one-across.web.app"
 isVisible: true
+category: "Personal"
 ---
 
 One-Across allows you to solve crossword puzzles with with your friends!
