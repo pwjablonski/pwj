@@ -1,12 +1,11 @@
 import React from "react"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import style from "./resume.module.css"
 
 const Projects = ({data, location}) => {
   return (
-    <Layout pathname={location.pathname}>
+    <>
       <SEO title="Resume" />
       <div className={style.content}>
         <h1>Peter Jablonski</h1>
@@ -183,7 +182,7 @@ order to standardize data flow and management
             </div>
          </section>
       </div>
-    </Layout>
+    </>
   )
 }
 

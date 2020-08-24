@@ -9,14 +9,16 @@ const Project = ({ siteTitle, data }) => {
     return null
   }
     return (
-      <Link to={data.path}>
-        <div className={style.project}>
-            <Img  className={style.img} fluid={data.image.childImageSharp.fluid} />
-            <div className={style.info}>
-                <span className={style.title}>{data.title}</span>
-            </div>
-        </div>
-      </Link>
+      <div>
+        <Link to={data.path}>
+          <div className={style.project}>
+              <Img  className={style.img} fluid={data.image.childImageSharp.fluid} />
+              <div className={style.info}>
+                  <span className={style.title}>{data.title}</span>
+              </div>
+          </div>
+        </Link>
+      </div>
     )
 };
 

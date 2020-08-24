@@ -1,21 +1,22 @@
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 const Header = ({ siteTitle, pathname }) => {
   return (
     <header className={styles.header}>
       <div className={styles.nav}>
-        <Link className={
+        <span className={
           pathname === '/' ? styles.linkActive : styles.link
-        } to="/">me</Link>
-        <Link className={
+        } onClick={() => scrollTo('#intro')}>me</span>
+        <a href="#projects" className={
           pathname === '/projects/' || pathname.startsWith('/projects/') ? styles.linkActive : styles.link
-        } to="/projects/">projects</Link>
-        <Link className={
-          pathname === '/resume' ? styles.linkActive : styles.link
-        } to="/resume">resume</Link>
+        } onClick={() => {  
+          scrollTo('#projects')
+        }} >projects</a>
       </div>
     </header>
   )
