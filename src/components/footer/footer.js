@@ -5,7 +5,7 @@ import Tree from "../tree/tree"
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-        <Tree />
+        {/* <Tree /> */}
     </footer>
   )
 }

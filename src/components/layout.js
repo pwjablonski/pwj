@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
 // import Header from "./header/header"
-import Footer from "./footer/footer"
+// import Footer from "./footer/footer"
 
 import "./layout.css"
 
@@ -36,7 +36,7 @@ const Layout = ({ children, pathname }) => {
     <>
       {/* <Header pathname={pathname} siteTitle={data.site.siteMetadata.title} /> */}
       <main onMouseDown={addBubble} role="presentation">{children}</main>
-      <Footer />
+      {/* <Footer /> */}
       {/* {
         bubbles.map((bubble, i) =>{
           return (
