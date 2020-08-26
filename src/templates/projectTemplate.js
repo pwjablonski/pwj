@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import style from "./projectTemplate.module.css"
 
@@ -15,7 +15,7 @@ export default function Template({
           <h1>{frontmatter.title}</h1> 
           <p className={style.links}>
             <a className={style.link} href={frontmatter.livelink} target="_blank" rel="noopener noreferrer">live site</a>
-            <span> | </span>
+            <span className={style.divide}>|</span>
             <a className={style.link} href={frontmatter.codelink} target="_blank" rel="noopener noreferrer">source</a>
           </p>
           <div className={style.content}>
@@ -25,6 +25,9 @@ export default function Template({
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div> 
+          <div>
+            <Link className={style.link} to="/">back</Link>
+          </div>
         </div>
     </Layout>
   )
