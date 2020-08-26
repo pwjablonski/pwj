@@ -1,7 +1,7 @@
 ---
 path: "/projects/teacher-hub"
 date: "2020-01-01"
-title: "teacher-hub"
+title: "teacher hub"
 image: "./teacher-hub.png"
 codelink: ""
 livelink: "https://teacherhub.upperlinecode.com/"

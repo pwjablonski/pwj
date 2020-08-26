@@ -2,7 +2,7 @@
 path: "/projects/popcode"
 date: "2019-07-01"
 title: "popcode"
-image: "./popcode.jpeg"
+image: "./popcode-screen.png"
 codelink: "https://github.com/popcodeorg/popcode"
 livelink: "https://popcode.org/"
 isVisible: true
