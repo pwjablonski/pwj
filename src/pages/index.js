@@ -16,6 +16,7 @@ import { faGithub, faLinkedin, faCodepen } from '@fortawesome/free-brands-svg-ic
 
 const IndexPage = ({location, data}) => {
   const projects = data.allMarkdownRemark.edges; 
+  console.log(projects)
 
   return (
     <Layout pathname={location.pathname}>

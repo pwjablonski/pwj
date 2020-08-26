@@ -5,7 +5,7 @@ title: "recurse-logo"
 image: "./recurse-logo.png"
 codelink: "https://codepen.io/pjablonski/pen/OJLzYZV"
 livelink: "https://codepen.io/pjablonski/full/OJLzYZV"
-isVisible: true
+isVisible: false
 category: "Personal"
 ---
 

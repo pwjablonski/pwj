@@ -5,7 +5,7 @@ title: "rainy-night"
 image: "./rainy-night.png"
 codelink: "https://codepen.io/pjablonski/pen/JjPZRJQ"
 livelink: "https://codepen.io/pjablonski/full/JjPZRJQ"
-isVisible: true
+isVisible: false
 category: "Personal"
 ---
 
