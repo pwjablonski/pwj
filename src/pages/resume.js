@@ -1,12 +1,12 @@
 import React from "react"
 
-import SEO from "../components/seo"
-import style from "./resume.module.css"
+import Seo from "../components/seo"
+import * as style from "./resume.module.css"
 
 const Projects = ({data, location}) => {
   return (
     <>
-      <SEO title="Resume" />
+      <Seo title="Resume" />
       <div className={style.content}>
         <h1>Peter Jablonski</h1>
          <section className={style.section}>

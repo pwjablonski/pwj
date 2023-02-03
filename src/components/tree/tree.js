@@ -1,5 +1,5 @@
 import React from "react"
-import style from "./tree.module.css"
+import * as style from "./tree.module.css"
 
 const Tree = () => {
     return (

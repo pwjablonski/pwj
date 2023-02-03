@@ -5,6 +5,7 @@ module.exports = {
     author: `Peter Jablonski`,
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {

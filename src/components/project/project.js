@@ -1,10 +1,12 @@
 import PropTypes from "prop-types"
 import React from "react"
-import style from "./project.module.css"
-import Img from "gatsby-image"
+import * as style from "./project.module.css"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const Project = ({ siteTitle, data }) => {
+  const image = getImage(data.image)
+
   if (!data.isVisible){
     return null
   }
@@ -12,7 +14,7 @@ const Project = ({ siteTitle, data }) => {
       <div>
         <Link to={data.path}>
           <div className={style.project}>
-              <Img  className={style.img} fluid={data.image.childImageSharp.fluid} />
+              <GatsbyImage  className={style.img} image={image} />
               <div className={style.info}>
                   <span className={style.title}>{data.title}</span>
               </div>

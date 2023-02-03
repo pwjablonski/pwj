@@ -11,10 +11,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const projectTemplate = path.resolve(`src/templates/projectTemplate.js`)
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
         edges {
           node {
             frontmatter {
@@ -34,7 +31,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: node.frontmatter.path,
       component: projectTemplate,
-      context: {}, // additional data can be passed via context
+      context: {
+        projectPath: node.frontmatter.path,
+      }, // additional data can be passed via context
     })
   })
 }

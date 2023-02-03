@@ -3,8 +3,8 @@ import React from "react"
 import { graphql, Link } from 'gatsby'
 
 import Layout from "../components/layout"
-import style from "./index.module.css"
-import SEO from "../components/seo"
+import * as style from "./index.module.css"
+import Seo from "../components/seo"
 import Project from '../components/project/project'
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
@@ -20,7 +20,7 @@ const IndexPage = ({location, data}) => {
 
   return (
     <Layout pathname={location.pathname}>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <section className={style.page} id="intro">
         <div className={style.intro}>
           <h1>hi! i'm peter, welcome to my site</h1>
@@ -100,10 +100,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
       edges {
         node {
           frontmatter {
@@ -114,9 +111,7 @@ export const pageQuery = graphql`
             category
             image {
               childImageSharp {
-                fluid(maxWidth: 150) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData
               }
             }
           }
