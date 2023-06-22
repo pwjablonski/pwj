@@ -11,11 +11,8 @@ const Projects = ({data, location}) => {
         <h1>Peter Jablonski</h1>
          <section className={style.section}>
            <p>
-              I am a computer science educator with 4 years
-              of experience teaching web development fundamentals,
-              seeking a software engineering role. Outside of work,
-              I am a major contributor to a complex, modern, production
-              level, open source code base. I’m most effective breaking
+              I am a former educator turned software engineer
+              seeking a new challenge. I’m most effective breaking
               down complex technical problems, working collaboratively
               and developing approachable and accessible experiences for users.
             </p>
@@ -32,6 +29,35 @@ const Projects = ({data, location}) => {
             <p><span className={style.skill}>Strong</span>​: JavaScript (ES5/ES6), React, Redux, Gatsby.js, HTML, CSS, Git, Firebase, Flux Architecture, JAMstack, jQuery</p>
             <p><span className={style.skill}>Experienced</span>: ​ Webpack, RESTful APIs, D3.js, Node/Express, Postgres/Sequelize,  Travis CI, Testing (Jest),  GraphQL</p>
             <h2>Recent Highlights</h2>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>DOTDASH MEREDITH</h3>
+                <div className="section__dates">October 2020 - Present</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                ​Senior Software Engineer
+              </h4>
+              <h4 className={style.section__subheader}>
+                Software Engineer II
+              </h4>
+              <h4 className={style.section__subheader}>
+                Frontend Developer
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Planning, designing and creating standardized application components used network wide across over 20 sites
+                </li>
+                <li>
+                  Utilizing Lighthouse to optimize Core Web Vitals creating more performant sites for millions of daily vistors
+                </li>
+                <li>
+                  Actively monitoring data from RUM metrics and Kibanna errors to improve overall application health 
+                </li>
+                <li>
+                  Establishing and maintaining proctor A/B testing to measure efficacy of new product intiatives
+                </li>
+              </ul>
+            </div>
             <div className={style.section__item}>
               <div className={style.section__header}>
                 <h3>ASIA SOCIETY</h3>
@@ -76,6 +102,77 @@ order to standardize data flow and management
             </div>
             <div className={style.section__item}>
               <div className={style.section__header}>
+                <h3>Code Nation (formerly ScriptEd)</h3>
+                <div className="section__dates">January 2017 - June 2019</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                Senior Program Manager,  Curriculum Specialist
+              </h4>
+              <ul className="section__details">
+                <li>
+                   Led revision of three levels of web development curricula for over 1000 students covering HTML, CSS, ​JavaScript, React
+                </li>
+                <li>
+                  Collaborated with developer team on research, planning and  development of CN Lesson Planning tool (repo)
+                </li>
+              </ul>
+            </div>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>Code / Interactive</h3>
+                <div className="section__dates">October 2015 - January 2017</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                Program Manager
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Managed and supported 6 partner schools to implement Creative Web Development and Programming course
+                </li>
+              </ul>
+            </div>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>Flatiron School</h3>
+                <div className="section__dates">May 2015 - August 2015</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                Pre-College Fellow
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Led  Intro to Software Engineering course covering Ruby, Javascript, HTML, CSS, Sinatra, SQL, Design Thinking
+                </li>
+              </ul>
+            </div>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>St. Louis Public Schools, Dewey ISS</h3>
+                <div className="section__dates">May 2013 - May 2015</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                Chinese Language Teacher, Teach for America Corps Member
+              </h4>
+            </div>
+         </section>
+         <section className={style.section}>
+            <h2>RELEVANT EXPERIENCE</h2>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
+                <h3>STANFORD UNIVERSITY</h3>
+                <div className="section__dates">June 2020 - August  2020</div>
+              </div>
+              <h4 className={style.section__subheader}>
+                CS106A Section Leader 
+              </h4>
+              <ul className="section__details">
+                <li>
+                  Led and mentored a group of 12 students from across the globe through a 5 week remote intensive Intro to CS course
+                </li>
+              </ul>
+            </div>
+            <div className={style.section__item}>
+              <div className={style.section__header}>
                 <h3>Recurse Center</h3>
                 <div className="section__dates">July 2019 - September 2019</div>
               </div>
@@ -84,19 +181,10 @@ order to standardize data flow and management
               </h4>
               <ul className="section__details">
                 <li>
-                  Created <a className={style.link} href="https://word-up-prod.web.app">Word-Up</a> (<a className={style.link} href="https://github.com/pwjablonski/word-up">repo</a>), an approachable interface for constructing crossword puzzles
-                </li>
-                <li>
-                  Created One-Across, a collaborative crossword solving platform <a className={style.link} href="https://joy.recurse.com/posts/337-one-across">featured</a> in RC’s Joy of Computing blog
+                  Created <a className={style.link} href="https://word-up-prod.web.app">Word-Up</a>, an approachable interface for constructing crossword puzzles as well as <a className={style.link} href="https://one-across.web.app/">One Across</a>, a collaborative crossword solving platform <a className={style.link} href="https://joy.recurse.com/posts/337-one-across">featured</a> in RC’s Joy of Computing blog. Used Flux architecture with React, Redux, redux-logic for async processing, and immer for immutable data store to create modularized application with optimized data flow. Automated continuous deployment with Travis CI and Jest ensuring simplifying deployment and ensuring product quality
                 </li>
                 <li>
                   Presented at Recurse’s monthly <a className={style.link} href="https://www.recurse.com/events/localhost-lightning-talks-august-2019">Localhost talk</a> to a technical audience of over 60 engineers
-                </li>
-                <li>
-                  Created implementation of <a className={style.link} href="https://ulitmate-tic-tac-toe.pwjablonski.now.sh/">Ultimate TicTacToe</a> (<a className={style.link} href="https://github.com/pwjablonski/ultimate-tic-tac-toe">repo</a>) using Svelte framework
-                </li>
-                <li>
-                  Explored <a className={style.link} href="https://pwjablonski.com/projects/lines">p5.js</a>, <a className={style.link} href="https://pwjablonski.com/projects/ratios">HTML Canvas</a> and <a className={style.link} href="https://pwjablonski.com/projects/recurse-logo">CSS animations</a> to create generative art
                 </li>
               </ul>
             </div>
@@ -118,45 +206,6 @@ order to standardize data flow and management
             </div>
          </section>
          <section className={style.section}>
-            <h2>Work Experience</h2>
-            <div className={style.section__item}>
-              <div className={style.section__header}>
-                <h3>Code Nation (formerly ScriptEd)</h3>
-                <div className="section__dates">January 2017 - June 2019</div>
-              </div>
-              <h4 className={style.section__subheader}>
-                Senior Program Manager,  Curriculum Specialist
-              </h4>
-            </div>
-            <div className={style.section__item}>
-              <div className={style.section__header}>
-                <h3>Code / Interactive</h3>
-                <div className="section__dates">October 2015 - January 2017</div>
-              </div>
-              <h4 className={style.section__subheader}>
-                Program Manager
-              </h4>
-            </div>
-            <div className={style.section__item}>
-              <div className={style.section__header}>
-                <h3>Flatiron School</h3>
-                <div className="section__dates">May 2015 - August 2015</div>
-              </div>
-              <h4 className={style.section__subheader}>
-                Pre-College Fellow
-              </h4>
-            </div>
-            <div className={style.section__item}>
-              <div className={style.section__header}>
-                <h3>St. Louis Public Schools, Dewey ISS</h3>
-                <div className="section__dates">May 2013 - May 2015</div>
-              </div>
-              <h4 className={style.section__subheader}>
-                Chinese Language Teacher, Teach for America Corps Member
-              </h4>
-            </div>
-         </section>
-         <section className={style.section}>
             <h2>Education</h2>
             <div className={style.section__item}>
               <div className={style.section__header}>
@@ -165,6 +214,9 @@ order to standardize data flow and management
               </div>
               <h4 className={style.section__subheader}>
                 Bachelor of Arts, Majors in Chinese and International Business
+              </h4>
+              <h4 className="section__details">
+                 Relevant Coursework: Computer Science I, Calculus II, Physics and Society
               </h4>
             </div>
          </section>
